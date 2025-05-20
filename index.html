@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>OperView</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+            <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">O Produto</a></li>
+        <li><a href="#store">Loja</a></li>
+        <li><a href="login.html" class="btn">Compre Agora</a></li>
+
+      </ul>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+        <img src="assets/header-bg.png" alt="header_bg" class="header-bg" />
+        <div class="header__image__content">
+          <h4>Módulo Extrusora</h4>
+          <a href="login.html" class="btn">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1>OperView<br /></h1>
+        <p>
+          Conheça o OperView, o mais completo dispositivo
+          de monitoramento industrial do mercado.
+        </p>
+      </div>
+    </header>
+
+    <section class="product" id="product">
+      <div class="section__container product__container">
+        <div class="product__grid">
+          <div class="product__image">
+            <img src="assets/product.png" alt="product" />
+          </div>
+          <div class="product__content">
+            <div class="product__card">
+              <h4>Conexão WiFi</h4>
+              <p>Conexão wireless - portátil</p>
+              <a href="#">Saiba Mais</a>
+            </div>
+            <div class="product__card">
+              <h4>Dados Precisos</h4>
+              <a href="#">Saiba Mais</a>
+            </div>
+            <div class="product__card">
+              <div class="product__colors">
+                <div><i class="ri-check-line"></i></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <p>Modelos disponíveis</p>
+            </div>
+          </div>
+        </div>
+        <div class="product__btn">
+          <a href="login.html" class="btn">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container store__container" id="store">
+      <h2>Módulos OperView</h2>
+      <p>
+        Explore nossos modelos de módulos que se adequam as suas necessidades!
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Módulo 3D 4002</h4>
+              <img src="assets/store-1.png" alt="store" />
+              <h3>R$ 75,00</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Módulo Estufa SR04</h4>
+              <img src="assets/store-2.png" alt="store" />
+              <h3>R$ 85,00</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Módulo Usinagem X3</h4>
+              <img src="assets/store-3.png" alt="store" />
+              <h3>R$ 89,99</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Módulo Tornearia 4A8</h4>
+              <img src="assets/store-4.png" alt="store" />
+              <h3>R$ 123,90</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Módulo Extrusora S157</h4>
+              <img src="assets/store-5.png" alt="store" />
+              <h3>R$ 90,00</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Módulo Microprocessador G2A</h4>
+              <img src="assets/store-6.png" alt="store" />
+              <h3>R$ 179,90</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <img src="assets/logo-white.png" alt="logo" />
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-pinterest-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 OperView. All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

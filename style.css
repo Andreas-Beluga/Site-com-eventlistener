@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #dac4ff);
+  }
+  
+  .container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 1rem;
+    color: #333333;
+    font-size: 2rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input:focus {
+    border-color: #6200ea;
+    outline: none;
+    box-shadow: 0 0 3px rgba(98, 0, 234, 0.5);
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #6200ea;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #3700b3;
+  }
+  
+  .status-message {
+    margin-top: 1rem;
+    color: #ff0000;
+    font-size: 1rem;
+  }
+  
